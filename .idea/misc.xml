@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.1" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/drawable/ic_email.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/drawable/ic_home.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/drawable/ic_people.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/drawable/ic_shopping.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/drawable/item_selector.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/drawable/round_corner.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/activity_cara_masuk.xml" value="0.22" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/activity_daftar_cara_masuk.xml" value="0.14990942028985507" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/activity_daftar_email.xml" value="0.33" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/activity_forgot_password.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/activity_login_daftar.xml" value="0.33" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/activity_login_email.xml" value="0.21649484536082475" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/activity_login_phone.xml" value="0.25" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/activity_menu.xml" value="0.22" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/activity_menu2.xml" value="0.1" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/activity_slide_pertama.xml" value="0.25" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/activity_splash_screen.xml" value="0.14" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/fragment_1.xml" value="0.1" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/fragment_akun.xml" value="0.2" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/fragment_daftar.xml" value="0.2" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/fragment_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/fragment_home_menu.xml" value="0.2" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/fragment_login.xml" value="0.2986003110419907" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/fragment_login_daftar.xml" value="0.67" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/fragment_shop.xml" value="0.1859375" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/layout/selector.xml" value="0.1" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/menu/icon_menu.xml" value="0.2" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/menu/item_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
