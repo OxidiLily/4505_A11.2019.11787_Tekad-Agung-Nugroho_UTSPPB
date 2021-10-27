@@ -1,19 +1,8 @@
 <resources>
     <string name="app_name">4505_A11201911787_TekadAgungNugroho_UTSPPB</string>
-    <string name="welcome_back">Welcome Back</string>
-    <string name="sign_in_to_continue">Sign in to continue</string>
-    <string name="username">Email</string>
-    <string name="password">Password</string>
-    <string name="enter_your_password">Enter Your Password</string>
     <string name="forgot_password">Forgot Password</string>
-    <string name="log_in">Log In</string>
-    <string name="home_text">Home</string>
-    <string name="shop_text">Shop</string>
-    <string name="akun_text">Akun</string>
-    <string name="maximum_password">Password too long, enter maximum 15 characters!</string>
-    <string name="title_activity_login_daftar">LoginDaftar</string>
-    <string name="tab_text_1">LOGIN</string>
-    <string name="tab_text_2">DAFTAR</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="maximum_password">Password terlalu panjang, masukkan maksimal 15 karakter !</string>
+    <string name="email_pass_nama_Kosong">Tidak Boleh Kosong</string>
+    <string name="Email_tidakValid">Email Tidak Valid</string>
+
 </resources>

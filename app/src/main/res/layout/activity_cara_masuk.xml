@@ -68,9 +68,9 @@
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="568dp"
+        android:layout_marginTop="668dp"
         android:layout_marginEnd="2dp"
         android:gravity="center"
-        android:text="By proceeding, you agree to our Terms of Use and Privacy Policy"
+        android:text="Version app 0.001"
         android:textSize="15sp" />
 </RelativeLayout>

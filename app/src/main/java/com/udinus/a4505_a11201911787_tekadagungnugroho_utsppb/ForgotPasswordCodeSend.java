@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class ForgotPassword extends AppCompatActivity {
+public class ForgotPasswordCodeSend extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_forgot_password);
+        setContentView(R.layout.activity_forgot_password_code_send);
     }
 
     public void clickLSendCode(View view) {
-        Intent i = new Intent(ForgotPassword.this, ForgotPasswordCodeSend.class);
+        Intent i = new Intent(ForgotPasswordCodeSend.this, LoginEmail.class);
         startActivity(i);
     }
 }

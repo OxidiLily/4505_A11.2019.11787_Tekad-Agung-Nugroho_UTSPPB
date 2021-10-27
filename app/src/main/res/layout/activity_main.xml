@@ -20,4 +20,11 @@
         android:backgroundTint="#FFFFFF"
         android:src="@drawable/logo" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:gravity="center"
+        android:text="Version app 0.001"
+        android:textSize="20sp" />
 </RelativeLayout>

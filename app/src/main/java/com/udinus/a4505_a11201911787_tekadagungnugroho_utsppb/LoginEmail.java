@@ -42,23 +42,13 @@ public class LoginEmail extends AppCompatActivity {
         if (TextUtils.isEmpty(editTextEmail.getText().toString().trim())
                 &&
                 TextUtils.isEmpty(editTextPassword.getText().toString().trim())){
-            Toast.makeText(view.getContext(),"Email dan Password Tidak Boleh Kosong!",Toast.LENGTH_LONG).show();
+            editTextEmail.setError(getString(R.string.email_pass_nama_Kosong));
+            editTextPassword.setError(getString(R.string.email_pass_nama_Kosong));
         }
 
-
-        // Validasi input email kosong
-        else if (TextUtils.isEmpty(editTextEmail.getText().toString().trim())){
-            Toast.makeText(view.getContext(),"Email Tidak Boleh Kosong!",Toast.LENGTH_LONG).show();
-        }
         // Validasi inputan tipe email
         else if (!isValidEmail(editTextEmail.getText().toString().trim())){
-            Toast.makeText(view.getContext(),"Email Tidak Valid",Toast.LENGTH_LONG).show();
-        }
-
-        // Validasi password kosong
-
-        else if(TextUtils.isEmpty(editTextPassword.getText().toString().trim())) {
-            Toast.makeText(view.getContext(), "Password Tidak Boleh Kosong!", Toast.LENGTH_LONG).show();
+            editTextEmail.setError(getString(R.string.Email_tidakValid));
         }
         else if ( editTextPassword.length() > PasswordMaxLength) {
             editTextPassword.setError(getString(R.string.maximum_password));
@@ -74,5 +64,8 @@ public class LoginEmail extends AppCompatActivity {
     }
 
 
-
+    public void clickSignUp(View view) {
+        Intent i = new Intent(LoginEmail.this, DaftarEmail.class);
+        startActivity(i);
+    }
 }

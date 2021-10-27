@@ -8,8 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.4505_A11201911787_TekadAgungNugroho_UTSPPB"
-        >
+        android:theme="@style/Theme.4505_A11201911787_TekadAgungNugroho_UTSPPB">
+        <activity
+            android:name=".ForgotPasswordCodeSend"
+            android:exported="false" />
         <activity
             android:name=".DaftarEmail"
             android:exported="false" />
