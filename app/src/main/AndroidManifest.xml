@@ -10,13 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.4505_A11201911787_TekadAgungNugroho_UTSPPB">
         <activity
+            android:name=".OrderSukses"
+            android:exported="false" />
+        <activity
+            android:name=".Merchandise"
+            android:exported="false" />
+        <activity
+            android:name=".OrderProduk"
+            android:exported="false" />
+        <activity
+            android:name=".TampilanShop"
+            android:exported="false" />
+        <activity
+            android:name=".ActionFigure"
+            android:exported="false" />
+        <activity
+            android:name=".TampilanAwal"
+            android:exported="false" />
+        <activity
             android:name=".ForgotPasswordCodeSend"
             android:exported="false" />
         <activity
             android:name=".DaftarEmail"
-            android:exported="false" />
-        <activity
-            android:name=".Menu"
             android:exported="false" />
         <activity
             android:name=".CaraMasuk"

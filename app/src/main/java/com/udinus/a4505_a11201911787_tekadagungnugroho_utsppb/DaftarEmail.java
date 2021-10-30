@@ -48,7 +48,15 @@ public class DaftarEmail extends AppCompatActivity {
             editTextPassword.setError(getString(R.string.email_pass_nama_Kosong));
             editTextName.setError(getString(R.string.email_pass_nama_Kosong));
         }
-
+        else if (TextUtils.isEmpty(editTextEmail.getText().toString().trim())){
+            editTextEmail.setError(getString(R.string.email_pass_nama_Kosong));
+        }
+        else if (TextUtils.isEmpty(editTextPassword.getText().toString().trim())){
+            editTextPassword.setError(getString(R.string.email_pass_nama_Kosong));
+        }
+        else if (TextUtils.isEmpty(editTextName.getText().toString().trim())){
+            editTextName.setError(getString(R.string.email_pass_nama_Kosong));
+        }
         // Validasi inputan tipe email
         else if (!isValidEmail(editTextEmail.getText().toString().trim())){
             editTextEmail.setError(getString(R.string.Email_tidakValid));
@@ -58,7 +66,7 @@ public class DaftarEmail extends AppCompatActivity {
         }
 
         else {
-            Intent i = new Intent(DaftarEmail.this, Menu.class);
+            Intent i = new Intent(DaftarEmail.this, LoginEmail.class);
             startActivity(i);
         }
 

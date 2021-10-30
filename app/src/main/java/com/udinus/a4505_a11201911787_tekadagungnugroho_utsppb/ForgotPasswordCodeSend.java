@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class ForgotPasswordCodeSend extends AppCompatActivity {
 
@@ -17,5 +18,6 @@ public class ForgotPasswordCodeSend extends AppCompatActivity {
     public void clickLSendCode(View view) {
         Intent i = new Intent(ForgotPasswordCodeSend.this, LoginEmail.class);
         startActivity(i);
+        Toast.makeText(view.getContext(),"Reset Password Berhasil",Toast.LENGTH_LONG).show();
     }
 }

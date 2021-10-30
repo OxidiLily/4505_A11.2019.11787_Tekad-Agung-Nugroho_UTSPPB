@@ -14,12 +14,4 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.4505_A11201911787_TekadAgungNugroho_UTSPPB.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <style name="Theme.4505_A11201911787_TekadAgungNugroho_UTSPPB.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.4505_A11201911787_TekadAgungNugroho_UTSPPB.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

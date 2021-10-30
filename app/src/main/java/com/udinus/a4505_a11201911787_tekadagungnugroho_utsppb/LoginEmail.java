@@ -45,7 +45,12 @@ public class LoginEmail extends AppCompatActivity {
             editTextEmail.setError(getString(R.string.email_pass_nama_Kosong));
             editTextPassword.setError(getString(R.string.email_pass_nama_Kosong));
         }
-
+        else if (TextUtils.isEmpty(editTextEmail.getText().toString().trim())){
+            editTextEmail.setError(getString(R.string.email_pass_nama_Kosong));
+        }
+        else if (TextUtils.isEmpty(editTextPassword.getText().toString().trim())){
+            editTextPassword.setError(getString(R.string.email_pass_nama_Kosong));
+        }
         // Validasi inputan tipe email
         else if (!isValidEmail(editTextEmail.getText().toString().trim())){
             editTextEmail.setError(getString(R.string.Email_tidakValid));
@@ -54,7 +59,7 @@ public class LoginEmail extends AppCompatActivity {
             editTextPassword.setError(getString(R.string.maximum_password));
         }
         else {
-            Intent i = new Intent(LoginEmail.this, Menu.class);
+            Intent i = new Intent(LoginEmail.this, TampilanAwal.class);
             startActivity(i);
         }
 
