@@ -7,6 +7,7 @@
     tools:context=".OrderProduk">
 
     <TextView
+        android:id="@+id/judulpesan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -19,16 +20,14 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/edt_txt_email"
+        android:id="@+id/edt_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/edt_txt_nama"
         android:layout_centerInParent="true"
         android:layout_marginStart="23dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="23dp"
         android:layout_marginRight="20dp"
         android:hint="Enter Your Email"
@@ -37,16 +36,29 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/edt_txt_name"
+        android:id="@+id/edt_txt_hp"
+        android:layout_below="@+id/edt_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Your Phone Number"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_txt_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judulpesan"
         android:layout_centerInParent="true"
         android:layout_marginStart="23dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="230dp"
+        android:layout_marginTop="70dp"
         android:layout_marginEnd="23dp"
         android:layout_marginRight="20dp"
         android:hint="Enter Your Name"
@@ -55,16 +67,13 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/edt_txt_password"
+        android:id="@+id/edt_txt_alamat"
+        android:layout_below="@+id/edt_txt_hp"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
         android:layout_marginStart="23dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="370dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="23dp"
         android:layout_marginRight="20dp"
         android:hint="Enter Your Address"
@@ -73,17 +82,17 @@
         android:textStyle="bold" />
 
     <Button
+        android:id="@+id/send"
         android:layout_width="295dp"
         android:layout_height="70dp"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerInParent="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="580dp"
+        android:layout_marginEnd="20dp"
         android:background="@drawable/button"
-        android:onClick="clickorder"
         android:text="ORDER"
         android:textSize="17sp"
         android:textStyle="bold"

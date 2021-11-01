@@ -17,8 +17,10 @@ public class ActionFigure extends AppCompatActivity {
         setContentView(R.layout.activity_action_figure);
         FigureList[] myListData = new FigureList[] {
                 new FigureList("Albedo", "Overlord",R.drawable.albedo_wing_ver),
+                new FigureList("Yuji Itadori", " Jujutsu Kaisen",R.drawable.yuji_itadori_jujutsu_kaisen),
+                new FigureList("Roxy Migurdia", "Mushoku Tensei",R.drawable.roxy_migurdia_mushoku_tensei),
                 new FigureList("Kaga", "Azurlane",R.drawable.figure_kaga_azur_lane),
-                new FigureList("Ganyu", " Genshin Impact",R.drawable.ganyu),
+                new FigureList("Todoroki Shoto", " Boku no Hero Academia",R.drawable.todoroki_shoto_boku_no_hero_academia),
                 new FigureList("Nagato", " Kantai Collection",R.drawable.nagato_kantai_collection),
                 new FigureList("Akagi", "Azurlane" ,R.drawable.akagi_azur_lane),
                 new FigureList("Kirito", "Sword Art Online",R.drawable.kirito_sword_art_online),

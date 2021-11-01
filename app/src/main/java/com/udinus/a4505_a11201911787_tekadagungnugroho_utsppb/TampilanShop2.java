@@ -6,21 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class TampilanAwal extends AppCompatActivity {
+public class TampilanShop2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tampilan_awal);
+        setContentView(R.layout.activity_tampilan_shop2);
     }
 
-    public void pencet(View view) {
-        Intent i = new Intent(TampilanAwal.this, Merchandise.class);
-        startActivity(i);
-    }
 
-    public void pencet1(View view) {
-        Intent i = new Intent(TampilanAwal.this, ActionFigure.class);
+    public void clickOrder(View view) {
+        Intent i = new Intent(TampilanShop2.this, OrderProduk.class);
         startActivity(i);
     }
 }
