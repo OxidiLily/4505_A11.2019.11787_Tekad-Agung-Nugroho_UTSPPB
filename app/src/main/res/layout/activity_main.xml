@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/logo"
         android:layout_width="348dp"
         android:layout_height="308dp"
         android:layout_alignParentTop="true"
@@ -21,10 +22,15 @@
         android:src="@drawable/logo" />
 
     <TextView
+        android:id="@+id/ver_aplikasi"
+        android:layout_below="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="470dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="525dp"
         android:gravity="center"
+        android:layout_marginBottom="150dp"
         android:text="Version app 0.001"
         android:textSize="20sp" />
 </RelativeLayout>

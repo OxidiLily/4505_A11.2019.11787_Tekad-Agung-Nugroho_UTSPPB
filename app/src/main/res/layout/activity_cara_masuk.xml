@@ -9,12 +9,14 @@
 
 
     <TextView
+        android:id="@+id/nama_aplikasi"
+        android:layout_below="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="271dp"
+        android:layout_marginTop="261dp"
         android:text="OXIDILILY"
         android:textColor="@color/black"
         android:textStyle="bold"
@@ -22,15 +24,14 @@
         android:textSize="30sp" />
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="200dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
+        android:id="@+id/logo"
+        android:layout_width="192dp"
+        android:layout_height="153dp"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="75dp"
-        android:layout_marginTop="89dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="95dp"
         android:layout_marginBottom="200dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
@@ -38,22 +39,26 @@
         android:src="@drawable/logo" />
 
     <Button
+        android:id="@+id/btn_login"
         android:layout_width="295dp"
         android:layout_height="52dp"
+        android:layout_below="@id/nama_aplikasi"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="363dp"
+        android:layout_marginTop="346dp"
         android:background="@drawable/button_email"
         android:onClick="clickLoginEmail"
         android:text="LOGIN"
         app:backgroundTint="#000000" />
 
     <Button
+        android:id="@+id/btn_signup"
         android:layout_width="295dp"
         android:layout_height="52dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="231dp"
+        android:layout_below="@id/btn_login"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="445dp"
         android:background="@drawable/button_email"
         android:onClick="clickSignUp"
         android:text="SIGN UP "
@@ -61,14 +66,15 @@
         app:backgroundTint="#E1DCDC" />
 
     <TextView
+        android:id="@+id/ver_aplikasi"
+        android:layout_below="@id/btn_signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="668dp"
+        android:layout_marginTop="678dp"
         android:layout_marginEnd="2dp"
         android:gravity="center"
         android:text="Version app 0.001"

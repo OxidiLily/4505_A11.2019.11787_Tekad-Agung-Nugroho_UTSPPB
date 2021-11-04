@@ -17,7 +17,8 @@
         android:text="ORDER"
         android:textAlignment="center"
         android:textSize="50sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
     <EditText
         android:id="@+id/edt_email"

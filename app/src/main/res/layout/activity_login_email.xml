@@ -18,15 +18,17 @@
         android:gravity="center"
         android:text="LOGIN WITH EMAIL"
         android:textSize="20dp"
+        android:textColor="@color/black"
         android:textStyle="bold" />
 
     <ImageView
         android:layout_width="192dp"
         android:layout_height="153dp"
         android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="70dp"
         android:layout_marginTop="80dp"
-        android:layout_marginEnd="72dp"
+        android:layout_marginEnd="92dp"
         android:scaleType="fitXY"
         android:src="@drawable/logo" />
 
@@ -65,12 +67,14 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/forgot"
+        android:layout_below="@id/btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_marginStart="190dp"
-        android:layout_marginTop="562dp"
+        android:layout_marginTop="605dp"
         android:layout_marginRight="20dp"
         android:onClick="clickForgot"
         android:text="@string/forgot_password"
@@ -80,12 +84,13 @@
         app:layout_constraintRight_toRightOf="parent" />
 
     <Button
+        android:id="@+id/btn_login"
         android:layout_width="295dp"
-        android:layout_height="52dp"
+        android:layout_height="60dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="490dp"
+        android:layout_marginTop="510dp"
         android:background="@drawable/button"
         android:onClick="clickLoginEmail"
         android:text="LOGIN"
@@ -98,7 +103,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginStart="230dp"
-        android:layout_marginTop="630dp"
+        android:layout_marginTop="670dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:onClick="clickSignUp"
@@ -111,11 +116,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30sp"
-        android:layout_marginTop="635dp"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="675dp"
         android:layout_marginEnd="80dp"
         android:text="Don't have an account?"
-        android:textColor="#9F9B9B"
+        android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold" />
 </RelativeLayout>

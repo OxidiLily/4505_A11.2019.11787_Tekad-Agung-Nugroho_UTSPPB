@@ -68,6 +68,7 @@ public class DaftarEmail extends AppCompatActivity {
         else {
             Intent i = new Intent(DaftarEmail.this, LoginEmail.class);
             startActivity(i);
+            Toast.makeText(view.getContext(),"Daftar Berhasil",Toast.LENGTH_LONG).show();
         }
 
     }
@@ -78,5 +79,6 @@ public class DaftarEmail extends AppCompatActivity {
     public void clickLoginEmail(View view) {
         Intent i = new Intent(DaftarEmail.this, LoginEmail.class);
         startActivity(i);
+
     }
 }

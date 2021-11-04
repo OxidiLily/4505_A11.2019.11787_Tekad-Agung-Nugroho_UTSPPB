@@ -2,6 +2,7 @@
     <string name="app_name">4505_A11201911787_TekadAgungNugroho_UTSPPB</string>
     <string name="forgot_password">Forgot Password</string>
     <string name="maximum_password">Password terlalu panjang, masukkan maksimal 15 karakter !</string>
+    <string name="maximum_code">masukkan maksimal 5 digit</string>
     <string name="email_pass_nama_Kosong">Tidak Boleh Kosong</string>
     <string name="Email_tidakValid">Email Tidak Valid</string>
 

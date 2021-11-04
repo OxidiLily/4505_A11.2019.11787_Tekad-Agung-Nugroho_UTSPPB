@@ -3,8 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11.2019.11787_Tekad Agung Nugroho_UTSPPB/app/src/main/res/layout/activity_forgot_password.xml" value="0.12454710144927536" />
-        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11.2019.11787_Tekad Agung Nugroho_UTSPPB/app/src/main/res/layout/activity_forgot_password_code_send.xml" value="0.25" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11.2019.11787_Tekad Agung Nugroho_UTSPPB/app/src/main/res/layout/activity_cara_masuk.xml" value="0.1" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11.2019.11787_Tekad Agung Nugroho_UTSPPB/app/src/main/res/layout/activity_daftar_email.xml" value="0.25" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11.2019.11787_Tekad Agung Nugroho_UTSPPB/app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11.2019.11787_Tekad Agung Nugroho_UTSPPB/app/src/main/res/layout/activity_forgot_password_code_send.xml" value="0.20923076923076922" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11.2019.11787_Tekad Agung Nugroho_UTSPPB/app/src/main/res/layout/activity_login_email.xml" value="0.16" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11.2019.11787_Tekad Agung Nugroho_UTSPPB/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11.2019.11787_Tekad Agung Nugroho_UTSPPB/app/src/main/res/layout/activity_merchandise.xml" value="0.1" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11.2019.11787_Tekad Agung Nugroho_UTSPPB/app/src/main/res/layout/activity_order_produk.xml" value="0.1" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11.2019.11787_Tekad Agung Nugroho_UTSPPB/app/src/main/res/layout/activity_order_sukses.xml" value="0.1" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11.2019.11787_Tekad Agung Nugroho_UTSPPB/app/src/main/res/layout/activity_tampilan_awal.xml" value="0.1" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11.2019.11787_Tekad Agung Nugroho_UTSPPB/app/src/main/res/layout/activity_tampilan_shop.xml" value="0.1" />
+        <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11.2019.11787_Tekad Agung Nugroho_UTSPPB/app/src/main/res/layout/activity_tampilan_shop2.xml" value="0.1" />
         <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.1" />
         <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/drawable/ic_email.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/tkdag/AndroidStudioProjects/4505_A11201911787_TekadAgungNugroho_UTSPPB/app/src/main/res/drawable/ic_home.xml" value="0.21614583333333334" />
@@ -63,5 +73,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16" />
+      </ProjectState>
+    </option>
   </component>
 </project>

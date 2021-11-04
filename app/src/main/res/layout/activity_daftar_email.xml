@@ -16,7 +16,8 @@
         android:text="SIGN UP"
         android:textAlignment="center"
         android:textSize="50sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
     <EditText
         android:id="@+id/edt_txt_email"
@@ -75,7 +76,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="510dp"
+        android:layout_marginTop="530dp"
         android:background="@drawable/button"
         android:onClick="clickCreate"
         android:text="CREATE ACCOUNT"
@@ -87,8 +88,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="230dp"
-        android:layout_marginTop="630dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="670dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:onClick="clickLoginEmail"
@@ -101,11 +102,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30sp"
-        android:layout_marginTop="635dp"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="675dp"
         android:layout_marginEnd="80dp"
         android:text="Already have an account?"
-        android:textColor="#9F9B9B"
+        android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold" />
 </RelativeLayout>

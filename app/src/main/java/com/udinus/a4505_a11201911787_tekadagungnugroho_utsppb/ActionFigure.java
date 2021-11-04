@@ -23,7 +23,7 @@ public class ActionFigure extends AppCompatActivity {
                 new FigureList("Todoroki Shoto", " Boku no Hero Academia",R.drawable.todoroki_shoto_boku_no_hero_academia),
                 new FigureList("Nagato", " Kantai Collection",R.drawable.nagato_kantai_collection),
                 new FigureList("Akagi", "Azurlane" ,R.drawable.akagi_azur_lane),
-                new FigureList("Kirito", "Sword Art Online",R.drawable.kirito_sword_art_online),
+                new FigureList("PVC Figure 1/7 Kirito - Sword Art Online", "Sword Art Online",R.drawable.kirito_sword_art_online),
                 new FigureList("Saber/Altria Pendragon Alter Dress Ver.", " Fate/stay Night",R.drawable.saber_altria_pendragon_alter_dress_ver),
                 new FigureList("Naofumi Iwatani", "Tate no Yuusha no Nariagari",R.drawable.naofumi_iwatani_tate_no_yuusha_no_nariagari),
 

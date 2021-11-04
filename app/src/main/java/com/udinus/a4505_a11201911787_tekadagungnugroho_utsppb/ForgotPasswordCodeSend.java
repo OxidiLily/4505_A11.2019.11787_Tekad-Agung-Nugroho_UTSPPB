@@ -21,9 +21,15 @@ public class ForgotPasswordCodeSend extends AppCompatActivity {
     }
 
     public void clickLSendCode(View view) {
+        int PasswordMaxLength = 5;
+
         if (TextUtils.isEmpty(editTextCode.getText().toString().trim())){
             editTextCode.setError(getString(R.string.email_pass_nama_Kosong));
-        }else{
+        }
+        else if ( editTextCode.length() > PasswordMaxLength) {
+            editTextCode.setError(getString(R.string.maximum_code));
+        }
+        else{
         Intent i = new Intent(ForgotPasswordCodeSend.this, LoginEmail.class);
         startActivity(i);
         Toast.makeText(view.getContext(),"Reset Password Berhasil",Toast.LENGTH_LONG).show();

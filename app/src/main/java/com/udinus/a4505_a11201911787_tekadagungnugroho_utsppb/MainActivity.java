@@ -20,6 +20,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), CaraMasuk.class));
                 finish();
             }
-        }, 1500); //1500  = 1.5 detik
+        }, 3000); //3000  = 3 detik
     }
 }
